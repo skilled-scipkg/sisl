@@ -1,0 +1,438 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "sisl",
+  "evidence": {
+    "core_skills": [
+      "sisl-api-and-scripting",
+      "sisl-changelog",
+      "sisl-inputs-and-modeling",
+      "sisl-release",
+      "sisl-getting-started",
+      "sisl-scripts"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/sisl-api-and-scripting.md",
+      "skills/.evidence/sisl-changelog.md",
+      "skills/.evidence/sisl-inputs-and-modeling.md",
+      "skills/.evidence/sisl-release.md",
+      "skills/.evidence/sisl-getting-started.md",
+      "skills/.evidence/sisl-scripts.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [
+        "skills/sisl-advanced-topics/SKILL.md",
+        "skills/sisl-advanced-topics/references/doc_map.md",
+        "skills/sisl-advanced-topics/references/source_map.md"
+      ],
+      "changed": [
+        "skills/sisl-advanced-topics/SKILL.md",
+        "skills/sisl-advanced-topics/references/doc_map.md",
+        "skills/sisl-advanced-topics/references/source_map.md",
+        "skills/sisl-api-and-scripting/SKILL.md",
+        "skills/sisl-build-and-install/SKILL.md",
+        "skills/sisl-build-and-install/references/doc_map.md",
+        "skills/sisl-build-and-install/references/source_map.md",
+        "skills/sisl-changelog/SKILL.md",
+        "skills/sisl-cite/SKILL.md",
+        "skills/sisl-cite/references/doc_map.md",
+        "skills/sisl-cite/references/source_map.md",
+        "skills/sisl-conventions/SKILL.md",
+        "skills/sisl-conventions/references/doc_map.md",
+        "skills/sisl-conventions/references/source_map.md",
+        "skills/sisl-developer-guide/SKILL.md",
+        "skills/sisl-developer-guide/references/doc_map.md",
+        "skills/sisl-developer-guide/references/source_map.md",
+        "skills/sisl-environment/SKILL.md",
+        "skills/sisl-environment/references/doc_map.md",
+        "skills/sisl-environment/references/source_map.md",
+        "skills/sisl-getting-started/SKILL.md",
+        "skills/sisl-index/SKILL.md",
+        "skills/sisl-inputs-and-modeling/SKILL.md",
+        "skills/sisl-other/SKILL.md",
+        "skills/sisl-other/references/doc_map.md",
+        "skills/sisl-other/references/source_map.md",
+        "skills/sisl-references/SKILL.md",
+        "skills/sisl-references/references/doc_map.md",
+        "skills/sisl-references/references/source_map.md",
+        "skills/sisl-release/SKILL.md",
+        "skills/sisl-scripts/SKILL.md",
+        "skills/sisl-spelling-wordlist/SKILL.md",
+        "skills/sisl-spelling-wordlist/references/doc_map.md",
+        "skills/sisl-spelling-wordlist/references/source_map.md",
+        "skills/sisl-templates/SKILL.md",
+        "skills/sisl-templates/references/doc_map.md",
+        "skills/sisl-templates/references/source_map.md",
+        "skills/sisl-theory-and-methods/SKILL.md",
+        "skills/sisl-theory-and-methods/references/doc_map.md",
+        "skills/sisl-theory-and-methods/references/source_map.md",
+        "skills/sisl-toolbox/SKILL.md",
+        "skills/sisl-toolbox/references/doc_map.md",
+        "skills/sisl-toolbox/references/source_map.md"
+      ],
+      "deleted": [
+        "skills/sisl-build-and-install/SKILL.md",
+        "skills/sisl-build-and-install/references/doc_map.md",
+        "skills/sisl-build-and-install/references/source_map.md",
+        "skills/sisl-cite/SKILL.md",
+        "skills/sisl-cite/references/doc_map.md",
+        "skills/sisl-cite/references/source_map.md",
+        "skills/sisl-conventions/SKILL.md",
+        "skills/sisl-conventions/references/doc_map.md",
+        "skills/sisl-conventions/references/source_map.md",
+        "skills/sisl-developer-guide/SKILL.md",
+        "skills/sisl-developer-guide/references/doc_map.md",
+        "skills/sisl-developer-guide/references/source_map.md",
+        "skills/sisl-environment/SKILL.md",
+        "skills/sisl-environment/references/doc_map.md",
+        "skills/sisl-environment/references/source_map.md",
+        "skills/sisl-other/SKILL.md",
+        "skills/sisl-other/references/doc_map.md",
+        "skills/sisl-other/references/source_map.md",
+        "skills/sisl-references/SKILL.md",
+        "skills/sisl-references/references/doc_map.md",
+        "skills/sisl-references/references/source_map.md",
+        "skills/sisl-spelling-wordlist/SKILL.md",
+        "skills/sisl-spelling-wordlist/references/doc_map.md",
+        "skills/sisl-spelling-wordlist/references/source_map.md",
+        "skills/sisl-templates/SKILL.md",
+        "skills/sisl-templates/references/doc_map.md",
+        "skills/sisl-templates/references/source_map.md",
+        "skills/sisl-theory-and-methods/SKILL.md",
+        "skills/sisl-theory-and-methods/references/doc_map.md",
+        "skills/sisl-theory-and-methods/references/source_map.md",
+        "skills/sisl-toolbox/SKILL.md",
+        "skills/sisl-toolbox/references/doc_map.md",
+        "skills/sisl-toolbox/references/source_map.md"
+      ],
+      "modified": [
+        "skills/sisl-api-and-scripting/SKILL.md",
+        "skills/sisl-changelog/SKILL.md",
+        "skills/sisl-getting-started/SKILL.md",
+        "skills/sisl-index/SKILL.md",
+        "skills/sisl-inputs-and-modeling/SKILL.md",
+        "skills/sisl-release/SKILL.md",
+        "skills/sisl-scripts/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [],
+      "changed": [
+        "skills/sisl-advanced-topics/SKILL.md",
+        "skills/sisl-analysis-and-output/SKILL.md",
+        "skills/sisl-analysis-and-output/references/doc_map.md",
+        "skills/sisl-api-and-scripting/references/doc_map.md",
+        "skills/sisl-examples-and-tutorials/SKILL.md",
+        "skills/sisl-examples-and-tutorials/references/doc_map.md",
+        "skills/sisl-inputs-and-modeling/references/doc_map.md",
+        "skills/sisl-parallel-hpc/SKILL.md",
+        "skills/sisl-parallel-hpc/references/doc_map.md",
+        "skills/sisl-scripts/references/doc_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/sisl-advanced-topics/SKILL.md",
+        "skills/sisl-analysis-and-output/SKILL.md",
+        "skills/sisl-analysis-and-output/references/doc_map.md",
+        "skills/sisl-api-and-scripting/references/doc_map.md",
+        "skills/sisl-examples-and-tutorials/SKILL.md",
+        "skills/sisl-examples-and-tutorials/references/doc_map.md",
+        "skills/sisl-inputs-and-modeling/references/doc_map.md",
+        "skills/sisl-parallel-hpc/SKILL.md",
+        "skills/sisl-parallel-hpc/references/doc_map.md",
+        "skills/sisl-scripts/references/doc_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Pass 1 discovery (2026-03-01) confirms docs-first content is centralized under docs/ with notebooks and walkthroughs in docs/tutorials, docs/quickstart/intro_tutorials, and docs/visualization.",
+      "Tests are intentionally listed as explicit nested roots because package tests are distributed under src/sisl/**/tests and docs/visualization/tests rather than a single top-level tests/ directory.",
+      "sci-skills-generator/scripts/generate_skills_folder.py was minimally patched in this pass to fix a Python f-string SyntaxError and restore deterministic dry-run execution."
+    ],
+    "package_name": "sisl",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "tools"
+    ],
+    "test_dirs": [
+      "docs/visualization/tests",
+      "src/sisl/_core/tests",
+      "src/sisl/geom/_category/tests",
+      "src/sisl/geom/_neighbors/tests",
+      "src/sisl/geom/tests",
+      "src/sisl/io/dftb/tests",
+      "src/sisl/io/fhiaims/tests",
+      "src/sisl/io/gulp/tests",
+      "src/sisl/io/orca/tests",
+      "src/sisl/io/siesta/tests",
+      "src/sisl/io/tbtrans/tests",
+      "src/sisl/io/tests",
+      "src/sisl/io/vasp/tests",
+      "src/sisl/io/wannier90/tests",
+      "src/sisl/linalg/tests",
+      "src/sisl/mixing/tests",
+      "src/sisl/physics/tests",
+      "src/sisl/shape/tests",
+      "src/sisl/tests",
+      "src/sisl/typing/tests",
+      "src/sisl/unit/tests",
+      "src/sisl/utils/tests",
+      "src/sisl/viz/data/tests",
+      "src/sisl/viz/plots/tests",
+      "src/sisl/viz/plotters/tests",
+      "src/sisl/viz/processors/tests"
+    ],
+    "tutorial_dirs": [
+      "docs/quickstart/intro_tutorials",
+      "docs/tutorials",
+      "docs/visualization",
+      "examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl",
+  "run_id": "compile_20260301T072201350243Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "sisl-analysis-and-output",
+      "sisl-api-and-scripting",
+      "sisl-build-and-install",
+      "sisl-changelog",
+      "sisl-cite",
+      "sisl-conventions",
+      "sisl-developer-guide",
+      "sisl-environment",
+      "sisl-examples-and-tutorials",
+      "sisl-getting-started",
+      "sisl-index",
+      "sisl-inputs-and-modeling",
+      "sisl-other",
+      "sisl-parallel-hpc",
+      "sisl-references",
+      "sisl-release",
+      "sisl-scripts",
+      "sisl-spelling-wordlist",
+      "sisl-templates",
+      "sisl-theory-and-methods",
+      "sisl-toolbox"
+    ],
+    "core_skill_ids": [
+      "sisl-api-and-scripting",
+      "sisl-changelog",
+      "sisl-inputs-and-modeling",
+      "sisl-release",
+      "sisl-getting-started",
+      "sisl-scripts"
+    ],
+    "deferred_gaps": [
+      "Generator default test-dir discovery misses nested src/sisl/**/tests without explicit --test-dirs; compile profile now pins these paths.",
+      "Tutorial content is distributed across quickstart, tutorials, and visualization trees; pass 2 should normalize routing to avoid duplication.",
+      "Low-signal one-doc topics from dry-run should be merged/renamed during pass 3 audit to keep total skill count concise."
+    ],
+    "goal": "Generate docs-first sisl skills, then enrich and audit the highest-impact user workflows in passes 2/3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "Route install vs API vs modeling vs IO/analysis requests to topic skills",
+          "Enforce docs-first escalation policy before source inspection"
+        ],
+        "reason": "Router quality determines whether later answers hit the right topic skill quickly and stay docs-first.",
+        "skill_id": "sisl-index",
+        "source_hints": [
+          "docs/index.rst",
+          "docs/quickstart/index.rst",
+          "docs/api/index.rst",
+          "docs/tutorials/index.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Environment prerequisites and first import/check",
+          "Core geometry and basic workflow notebooks"
+        ],
+        "reason": "Quickstart and first-run guidance is the most frequent entry path for new users.",
+        "skill_id": "sisl-getting-started",
+        "source_hints": [
+          "docs/quickstart/overview.rst",
+          "docs/quickstart/install.rst",
+          "docs/quickstart/intro_tutorials"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Pip/build-system installation paths",
+          "Optional dependency groups and common install failures"
+        ],
+        "reason": "Build and dependency issues are high-friction and need canonical, doc-backed playbooks.",
+        "skill_id": "sisl-build-and-install",
+        "source_hints": [
+          "pyproject.toml",
+          "CMakeLists.txt",
+          "docs/quickstart/install.rst",
+          "docs/environment.rst"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Geometry/orbital/model setup patterns",
+          "Siesta/TBtrans-related input handling and data model conventions"
+        ],
+        "reason": "Model construction and IO setup are central scientific workflows for sisl users.",
+        "skill_id": "sisl-inputs-and-modeling",
+        "source_hints": [
+          "docs/tutorials",
+          "docs/api/core.rst",
+          "docs/toolbox",
+          "src/sisl/geom",
+          "src/sisl/io"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Top-level package/API navigation",
+          "CLI entry points and script usage patterns"
+        ],
+        "reason": "Most expert usage is programmatic; API routing must be crisp and symbol-searchable.",
+        "skill_id": "sisl-api-and-scripting",
+        "source_hints": [
+          "docs/api",
+          "docs/scripts",
+          "src/sisl",
+          "src/sisl_toolbox"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Map user goals to the best example/notebook quickly",
+          "Extract minimal reproducible snippets from tutorial assets"
+        ],
+        "reason": "Runnable examples and notebooks provide the strongest minimal working references.",
+        "skill_id": "sisl-examples-and-tutorials",
+        "source_hints": [
+          "examples",
+          "docs/tutorials",
+          "docs/visualization",
+          "docs/quickstart/intro_tutorials"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Output formats and analysis entry points",
+          "Visualization workflows and validation checks"
+        ],
+        "reason": "Post-processing and visualization are common downstream tasks after simulation/data loading.",
+        "skill_id": "sisl-analysis-and-output",
+        "source_hints": [
+          "docs/visualization",
+          "docs/api/physics.rst",
+          "docs/api/io",
+          "src/sisl/viz",
+          "src/sisl/io"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "Locate MPI/OpenMP/scaling guidance if present",
+          "Decide keep-vs-merge policy for low-signal HPC docs"
+        ],
+        "reason": "HPC guidance appears sparse; pass 3 should verify whether this warrants a dedicated skill or merge.",
+        "skill_id": "sisl-parallel-hpc",
+        "source_hints": [
+          "docs/environment.rst",
+          "docs/dev",
+          "src/sisl/_core",
+          "tools/build_tools"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "sisl-changelog",
+      "sisl-advanced-topics",
+      "sisl-release",
+      "sisl-getting-started",
+      "sisl-scripts",
+      "sisl-parallel-hpc"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-changelog/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-advanced-topics/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-release/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-getting-started/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-scripts/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/sisl-sisl/skills/sisl-parallel-hpc/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "skill plan target missing from generated skills/: sisl-build-and-install"
+    ],
+    "index_skills": [
+      "sisl-index"
+    ],
+    "missing_planned_skills": [
+      "sisl-build-and-install"
+    ],
+    "ok": false,
+    "planned_skill_ids": [
+      "sisl-index",
+      "sisl-getting-started",
+      "sisl-build-and-install",
+      "sisl-inputs-and-modeling",
+      "sisl-api-and-scripting",
+      "sisl-examples-and-tutorials",
+      "sisl-analysis-and-output",
+      "sisl-parallel-hpc"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 11,
+    "source_inventory": {},
+    "source_links_total": 285,
+    "topic_skills": 10,
+    "warnings": []
+  }
+}
